@@ -6,7 +6,7 @@
   <link href="yuanyehao.com/atom.xml" rel="self"/>
   
   <link href="yuanyehao.com/"/>
-  <updated>2022-01-15T03:23:43.239Z</updated>
+  <updated>2022-01-18T03:45:48.470Z</updated>
   <id>yuanyehao.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>关于itsNeko开源博客食用方法</title>
-    <link href="yuanyehao.com/posts/itsneko-opensource-blog.html"/>
-    <id>yuanyehao.com/posts/itsneko-opensource-blog.html</id>
-    <published>2021-12-15T16:34:14.000Z</published>
-    <updated>2022-01-15T03:23:43.239Z</updated>
+    <title>这是篮球模板</title>
+    <link href="yuanyehao.com/posts/basketball.html"/>
+    <id>yuanyehao.com/posts/basketball.html</id>
+    <published>2022-01-17T16:34:14.000Z</published>
+    <updated>2022-01-18T03:45:48.470Z</updated>
     
     
       
@@ -34,10 +34,10 @@
     
     
     
-    <category term="itsNeko博客食用方法" scheme="yuanyehao.com/categories/itsNeko%E5%8D%9A%E5%AE%A2%E9%A3%9F%E7%94%A8%E6%96%B9%E6%B3%95/"/>
+    <category term="篮球" scheme="yuanyehao.com/categories/%E7%AF%AE%E7%90%83/"/>
     
     
-    <category term="关于itsNeko开源博客" scheme="yuanyehao.com/tags/%E5%85%B3%E4%BA%8EitsNeko%E5%BC%80%E6%BA%90%E5%8D%9A%E5%AE%A2/"/>
+    <category term="篮球" scheme="yuanyehao.com/tags/%E7%AF%AE%E7%90%83/"/>
     
   </entry>
   
