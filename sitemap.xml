@@ -156,14 +156,14 @@
   </url>
   
   <url>
-    <loc>www.yuanyehao.com/posts/essay-demo.html</loc>
+    <loc>www.yuanyehao.com/posts/articletemplate.html</loc>
     
     <lastmod>2022-01-15</lastmod>
     
   </url>
   
   <url>
-    <loc>www.yuanyehao.com/posts/articletemplate.html</loc>
+    <loc>www.yuanyehao.com/posts/essay-demo.html</loc>
     
     <lastmod>2022-01-15</lastmod>
     
@@ -201,13 +201,6 @@
   
   <url>
     <loc>www.yuanyehao.com/tags/%E7%AF%AE%E7%90%83/</loc>
-    <lastmod>2022-01-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>www.yuanyehao.com/tags/python/</loc>
     <lastmod>2022-01-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
