@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>初见spacy</title>
+      <link href="/posts/start_spacy.html"/>
+      <url>/posts/start_spacy.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div class="note info">nlp工具spacy库的使用</div><h1 id="初见spacy"><a href="#初见spacy" class="headerlink" title="初见spacy"></a>初见spacy</h1><p>由于使用stanfordcorenlp时一直报错，不得已改用spacy</p><h2 id="关于spacy及其安装"><a href="#关于spacy及其安装" class="headerlink" title="关于spacy及其安装"></a>关于spacy及其安装</h2><p>Spacy 是由 <code>cython</code> 编写。因此它是一个非常快的库。 <code>spaCy</code> 提供简洁的接口用来访问其方法和属性 governed by trained machine (and deep) learning models.</p><p><a href="https://spacy.io/" class="LinkCard" target="_blank">spacy官网</a></p><h3 id="spacy安装"><a href="#spacy安装" class="headerlink" title="spacy安装"></a>spacy安装</h3><p>pycharm下直接安装即可，其他方式也可用命令行</p><pre><code> pip install spacy</code></pre><p>第一次用python的小伙伴pip速度慢建议搜一下更换pip国内源 <a href="https://blog.csdn.net/doulihang/article/details/87193010" class="LinkCard" target="_blank">pip更换源教程</a></p><h3 id="下载模型"><a href="#下载模型" class="headerlink" title="下载模型"></a>下载模型</h3><p><a href="https://spacy.io/usage/models" class="LinkCard" target="_blank">spacy官网模型教程</a></p><p>由于大部分小伙伴主要还是做中文处理，所以还要安装中文的模型</p><pre><code>python -m spacy download zh_core_web_sm</code></pre><p>但直接按上述方式下载由于不可抗力会报错，需要科学上网，如果打开了科学上网还不行的同学应该是没有配置命令行的代理，按下面的步骤在命令行下执行（10809是科学上网的端口号,win10搜索代理进入相关设置观看）</p><pre><code>set HTTP_PROXY=http://127.0.0.1:10809set HTTPS_PROXY=http://127.0.0.1:10809</code></pre><h2 id="spacy初使用"><a href="#spacy初使用" class="headerlink" title="spacy初使用"></a>spacy初使用</h2><pre><code>import spacynlp = spacy.load(&quot;zh_core_web_sm&quot;)doc = nlp(u&#39;不管下雨又刮风，泥巴路上花一朵&#39;)for token in doc:    print(token)for token in doc:    print(token, token.pos_, token.pos)</code></pre><p>结果<br><img src="/l/start_spacy/spacy_test.png" class title="spacy_test"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 技术 </tag>
+            
+            <tag> python </tag>
+            
+            <tag> spacy </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>这是篮球模板</title>
       <link href="/posts/basketball.html"/>
       <url>/posts/basketball.html</url>
