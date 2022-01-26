@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="计算机,篮球,库里">
+    <meta name="keywords" content="标签: python, 计算机,篮球,库里">
     <meta name="description" content="主要记录个人的生活与技术发展">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -18,7 +18,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>原野小耗子的个人博客</title>
+    <title>标签: python | 原野小耗子的个人博客</title>
     
     <script>
         // 隐藏
@@ -891,56 +891,9 @@ class="themespring" -->
 </div>
 <!-- 春节主题模式样式结束 -->
 
-    
-<style>
-    .carousel-control {
-        width: 45px;
-        height: 45px;
-        line-height: 55px;
-        border-radius: 45px;
-        background: transparent;
-        cursor: pointer;
-        z-index: 100;
-    }
-
-    #prev-cover {
-        position: absolute;
-        top: 48%;
-        left: 8px;
-    }
-
-    #next-cover {
-        position: absolute;
-        top: 48%;
-        right: 8px;;
-    }
-
-    #prev-cover i {
-        margin-right: 3px;
-    }
-
-    #next-cover i {
-        margin-left: 3px;
-    }
-
-    .carousel-control:hover {
-        background-color: rgba(0, 0, 0, .4);
-    }
-
-    .carousel-control i {
-        color: #fff;
-        font-size: 2.4rem;
-    }
-</style>
-
-
-
-<div class="carousel carousel-slider center index-cover" data-indicators="true" style="margin-top: -64px;">
-    
-
-    <div class="carousel-item red white-text bg-cover about-cover">
-        <div class="container">
-            <div class="row">
+    <div class="bg-cover pd-header about-cover">
+    <div class="container">
+        <div class="row">
     <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
         <div class="brand">
             <div class="title center-align">
@@ -977,374 +930,65 @@ class="themespring" -->
 </script>
 
 
-
-            <div class="cover-btns">
-                <a href="#indexCard" class="waves-effect waves-light btn">
-                    <i class="fa fa-angle-double-down"></i>开始阅读
-                </a>
-
-                
-            </div>
-            <div class="cover-social-link">
-    <a href="https://github.com/StephenYuan7" class="tooltipped" target="_blank" data-tooltip="GitHub" data-position="top" data-delay="50">
-        <i class="fab fa-github"></i>
-    </a>
-
-
-
-    <a href="mailto:2583242079@qq.com" class="tooltipped" target="_blank" data-tooltip="2583242079@qq.com" data-position="top" data-delay="50">
-        <i class="fas fa-envelope-open"></i>
-    </a>
-
-
-
-    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=2583242079" class="tooltipped" target="_blank" data-tooltip="2583242079" data-position="top" data-delay="50">
-        <i class="fab fa-qq"></i>
-    </a>
-
-
-
-</div>
-        </div>
     </div>
-
-    
+    <div class="mohuxiaoguo"></div>
 </div>
 
-<script>
-    $(function () {
-        let coverSlider = $('.carousel');
-
-        //用户触摸轮播自动 restartPlay 是否生效
-        let initUserPressedOrDraggedActive = false
-
-        //用户触摸轮播自动 restartPlay
-        function initUserPressedOrDragged(instance) {
-            setInterval(() => {
-                if (instance.pressed || instance.dragged) {
-                    // console.log('initUserPressedOrDragged: ',instance.pressed,instance.dragged)
-                    restartPlay()
-                }
-            }, 1000)
-        }
-
-        coverSlider.carousel({
-            duration: Number('120'),
-            fullWidth: true,
-            indicators: 'true' === 'true',
-            onCycleTo() {
-                if (!initUserPressedOrDraggedActive) {
-                    // console.log('initUserPressedOrDraggedActive')
-                    initUserPressedOrDragged(this)
-                    initUserPressedOrDraggedActive = true
-                }
-            },
-        })
-
-        let carouselIntervalId;
-        
-        // Loop to call the next cover article picture.
-        let autoCarousel = function () {
-            carouselIntervalId = setInterval(function () {
-                coverSlider.carousel('next');
-            }, 5000);
-        };
-        autoCarousel();
-        
-
-        function restartPlay() {
-            
-            clearInterval(carouselIntervalId);
-            autoCarousel();
-            
-        };
-
-        
-    });
-</script>
-
-
 
 <style>
-  /* 主页背景图 */
-  .bg-cover {
-      background-image: url("/medias/banner/curry.jpg")!important;
-  }
-</style>
-
-<style>
-    @media only screen and (max-width: 601px) {
-        #switchspring {
-            bottom: 178px!important;
-        }
+    .bg-cover {
+        height: 44vh;
     }
-    #switchspring {
-        bottom: 232px;
+    #sma {
+        bottom: 118px;
     }
-    .hurens {
-        color: #926fec;
-        font-size: 1.08rem;
-    }
-    body.dark .hurens {
-        color: #926fec!important;
+    .bg-cover::before {
+        background-image: url(https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/grid.png);
     }
 </style>
-
 <main class="content">
     
-    <div id="indexCard" class="index-card">
-      <div class="container ">
-        <!-- 王小波语录栏开始 -->
-        <div class="card huahuacard">
-            <div class="card-content">
-                    
-                        <style>
-  .yulunr {
-    text-indent: 2rem;
-  }
-</style>
-<div class="dream yuludream">
-    <div class="row">
-        <!-- 泠鸢歌词开始 -->
-        <div class="col l12 m12 s12 text datext">
-            <!-- 福袋按钮 -->
-            <div class="caishendeng">        
-                <div class="caishenxian fudaixian">
-                    <img class="caishenpic fudai" src="/medias/spring-img/fudai.png" />
-                </div>              
-            </div>
-            <div class="title center-align">
-              《神的随波逐流》
-            </div>
-            <div class="yulunr">泥巴路上迎着风，再把衣裳抖一抖，笑过以后就能越挫越勇</div>
-        </div>
-        <!-- 泠鸢歌词结束 -->
-    </div>
-</div>
 
-                    
-
-                    
-
-                    
-
-                    
-                    
-            </div>
-            <!-- 旋转樱花 -->
-            <div class="yinghua yhleft">        
-              <div class="yinghualine">
-                  <img class="yinghuapic" src="/medias/yinghua.png" />
-              </div>       
-              <style>
-                    .yinghua {
-                      position: absolute;
-                      bottom: 32px;
-                    }
-                    .yhleft {
-                      left: 15%;
-                    }
-                    .yinghualine {
-                      position: absolute;
-                      top: 0px;
-                      right: 20%;
-                      width: 2px;
-                      height: 32px;
-                      background: #dc8f03;
-                      transform-origin: 50% 100px;
-                      animation: swing 3.5s infinite ease-in-out;
-                      -webkit-transform-origin: 50% 100px;
-                      -webkit-animation: swing 3.5s infinite ease-in-out;
-                    }
-                    .yinghuapic {
-                      width: 28px;
-                      height: 28px;
-                      -webkit-animation: rotate 2s linear 0s infinite;
-                      animation: rotate 2s linear 0s infinite;
-                      position: absolute;
-                      top: -14px;
-                      left: -14px;
-                      z-index: 9;
-                    }
-              </style>       
-            </div>
-        </div>
-        <!-- 王小波语录栏结束 -->
-
-        <!-- 全局通知公告播报栏开始 -->
-        <style>
-          .notices {
-              padding: 20px;
-              color: #969696;
-              position: relative;
-              display: inline-block;                               
-              border-radius: 10px;
-              font-size: 16px;
-          }
-          .rows .col.offset-l2 {
-              margin-left: 0px!important;
-          }
-          .textsst {
-              padding: 20px;
-              font-size: 1.08rem;
-              text-indent: 2rem;
-              font-family: 'Architects Daughter', cursive!important;
-          }
-          .textsst p {
-            font-size: 16px;
-          }
-        </style>
-        <div class="card huahuacard">
-          <div class="dream">                           
-            <div class="row rows">
-              <div class="notices col l12 offset-l2 m12 offset-m1 s12 offset-s1">
-                    <div class="caishendeng">        
-                        <div class="caishenxian">
-                            <img class="caishenpic" 
-                            src="/medias/spring-img/caishen.png" />
-                        </div>                    
-                    </div>
-                    <!-- 公告文字栏开始 -->
-                    <div class="textsst">
-                      <p>作者：Hello，原野小耗子，我本博客的作者，使用开源的itsNeko博客地址:<a href="https://nekodeng.gitee.io/" target="_blank">itsNeko博客~</a></p>
-                      <p>下载：本开源博客的源码已经上传我的github仓库，欢迎<code>Star</code>，下载地址：
-                        <a href="https://github.com/StephenYuan7/StephenYuan7.github.io" target="_blank">源码github下载地址~</a>
-                      </p>
-                      <p>联系：怎样联系小耗子，留言：<a href="https://nekooo.top/contact" target="_blank">小耗子的留言板</a> ，邮箱：<code>2583242079@qq.com</code>，QQ: <code>2583242079</code></p>
-                    </div>
-                    <!-- 公告文字栏结束 -->
-              </div>
-            </div>
-          </div>
-          <!-- 旋转樱花 -->
-          <div class="yinghua yhright">        
-            <div class="yinghualine">
-                <img class="yinghuapic" src="/medias/yinghua.png" />
-            </div>       
-            <style>
-              .yinghua {
-                position: absolute;
-                bottom: 32px;
-              }
-              .yhright {
-                right: 12%;
-              }
-              .yinghualine {
-                position: absolute;
-                top: 0px;
-                right: 20%;
-                width: 2px;
-                height: 32px;
-                background: #dc8f03;
-                transform-origin: 50% 100px;
-                animation: swing 3.5s infinite ease-in-out;
-                -webkit-transform-origin: 50% 100px;
-                -webkit-animation: swing 3.5s infinite ease-in-out;
-              }
-              .yinghuapic {
-                width: 28px;
-                height: 28px;
-                -webkit-animation: rotate 2s linear 0s infinite;
-                animation: rotate 2s linear 0s infinite;
-                position: absolute;
-                top: -14px;
-                left: -14px;
-                z-index: 9;
-              }
-            </style>       
-          </div>
-        </div>
-        <!-- 全局通知公告播报栏结束 -->
-      </div>
-    </div>
-    </div>
-    
-
-    
-
-    <!-- 所有文章卡片开始 -->
     <article id="articles" class="container articles">
-        <div class="row article-row">
+        <div class="row tags-posts">
             
-            <div class="article col s12 m6 l4">
+            
+            <div class="article tag-post col s12 m6 l4" data-tags="python">
                 <div class="card">
-                    <!-- 推荐文章置顶模块效果开始 -->
-                    
-                    <div class="placetop">推荐文章</div>
-                    <style>
-                        .placetop {
-                          z-index: 99;
-                          position: absolute;
-                          top: 0;
-                          left: 0;
-                          width: 80px;
-                          height: 30px;
-                          line-height: 30px;
-                          border-bottom-right-radius: 8px;
-                          background-color: #039be5;
-                          text-align: center;
-                          font-size: 15px;
-                          color: #fff;
-                          font-weight: 400!important;
-                          opacity: 0.95;
-                        }
-                        body.dark .placetop {
-                          opacity: 0.75;
-                        }
-                    </style>
-                    
-                    <!-- 推荐文章置顶模块效果结束 -->
                     <a href="/posts/python-note.html">
-                        <div class="card-image">
-                            
+                        <div class="card-image tag-image">
                             
                             <img src="/medias/tech/python.jpeg" class="responsive-img" alt="">
                             
-                            <!-- 福袋按钮 -->
-                            <div class="caishendeng">        
-                                <div class="caishenxian fudaixian">
-                                    <img class="caishenpic lala" src="/medias/spring-img/fish.png" />
-                                </div>              
-                            </div>
                             <span class="card-title">
+                              <!-- 文章卡片hover线条效果 -->
+                              <span class="titlesline">
+                                <style>
+                                  .titlesline {
+                                    width: 0px;
+                                    height: 4px;
+                                    background-color: pink;
+                                    border-radius: 2px;
+                                    position: absolute;
+                                    top: 10px;
+                                    left: 24px;
+                                  }
+                                  body.dark .titlesline {
+                                    filter: brightness(.7);
+                                  }
+                                  article .card .titlesline {
+                                    transition: all 0.36s ease;
+                                  }
+                                  article .card-image:hover .titlesline {
+                                    width: 36px;
+                                  }
+                                </style>
+                              </span>
                               
-                              <!-- 文章卡片hover线条效果 -->
-                              <span class="titlesline">
-                                <style>
-                                  .titlesline {
-                                    width: 0px;
-                                    height: 4px;
-                                    background-color: #fadca6;
-                                    border-radius: 2px;
-                                    position: absolute;
-                                    top: 10px;
-                                    left: 24px;
-                                  }
-                                  body.dark .titlesline {
-                                    filter: brightness(.7);
-                                  }
-                                  article .card .titlesline {
-                                    transition: all 0.36s ease;
-                                  }
-                                  article .card-image:hover .titlesline {
-                                    width: 36px;
-                                  }
-                                </style>
-                              </span>
                             </span>
                         </div>
                     </a>
-
                     <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                python的小笔记(不定时更新)/div&gt;
-pythonenumerate迭代器，顺便把序号给标上了
-for index, i in enumerate(range(100000)):
-    if index % 2 == 0:
-
-                            
-                        </div>
                         <div class="publish-info">
                             <span class="publish-date">
                                 <i class="far fa-clock fa-fw icon-date"></i>2022-01-26
@@ -1354,572 +998,18 @@ for index, i in enumerate(range(100000)):
                                 <i class="fas fa-bookmark fa-fw icon-category"></i>
                                 
                                 <a href="/categories/%E6%8A%80%E6%9C%AF/" class="post-category">
-                                    技术
+                                技术
                                 </a>
                                 
                                 
                             </span>
                         </div>
                     </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/python/">
-                            <span class="chip bg-color">python</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4">
-                <div class="card">
-                    <!-- 推荐文章置顶模块效果开始 -->
-                    
-                    <div class="placetop">推荐文章</div>
-                    <style>
-                        .placetop {
-                          z-index: 99;
-                          position: absolute;
-                          top: 0;
-                          left: 0;
-                          width: 80px;
-                          height: 30px;
-                          line-height: 30px;
-                          border-bottom-right-radius: 8px;
-                          background-color: #039be5;
-                          text-align: center;
-                          font-size: 15px;
-                          color: #fff;
-                          font-weight: 400!important;
-                          opacity: 0.95;
-                        }
-                        body.dark .placetop {
-                          opacity: 0.75;
-                        }
-                    </style>
-                    
-                    <!-- 推荐文章置顶模块效果结束 -->
-                    <a href="/posts/git_ssh.html">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/tech/python/github.png" class="responsive-img" alt="git配置多个ssh key">
-                            
-                            <!-- 福袋按钮 -->
-                            <div class="caishendeng">        
-                                <div class="caishenxian fudaixian">
-                                    <img class="caishenpic lala" src="/medias/spring-img/fish.png" />
-                                </div>              
-                            </div>
-                            <span class="card-title">
-                              git配置多个ssh key
-                              <!-- 文章卡片hover线条效果 -->
-                              <span class="titlesline">
-                                <style>
-                                  .titlesline {
-                                    width: 0px;
-                                    height: 4px;
-                                    background-color: #fadca6;
-                                    border-radius: 2px;
-                                    position: absolute;
-                                    top: 10px;
-                                    left: 24px;
-                                  }
-                                  body.dark .titlesline {
-                                    filter: brightness(.7);
-                                  }
-                                  article .card .titlesline {
-                                    transition: all 0.36s ease;
-                                  }
-                                  article .card-image:hover .titlesline {
-                                    width: 36px;
-                                  }
-                                </style>
-                              </span>
-                            </span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                github/gitlab(内网) 管理多个ssh key解决报错问题
-
-在github下成功配置后在gitlab(内网服务器)下一直不成功，这里写一下解决策略
-git配置多个ssh key普通安装添加第一个ssh key首先绑定用户就不提
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-01-26
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/%E6%8A%80%E6%9C%AF/" class="post-category">
-                                    技术
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/git/">
-                            <span class="chip bg-color">git</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4">
-                <div class="card">
-                    <!-- 推荐文章置顶模块效果开始 -->
-                    
-                    <div class="placetop">推荐文章</div>
-                    <style>
-                        .placetop {
-                          z-index: 99;
-                          position: absolute;
-                          top: 0;
-                          left: 0;
-                          width: 80px;
-                          height: 30px;
-                          line-height: 30px;
-                          border-bottom-right-radius: 8px;
-                          background-color: #039be5;
-                          text-align: center;
-                          font-size: 15px;
-                          color: #fff;
-                          font-weight: 400!important;
-                          opacity: 0.95;
-                        }
-                        body.dark .placetop {
-                          opacity: 0.75;
-                        }
-                    </style>
-                    
-                    <!-- 推荐文章置顶模块效果结束 -->
-                    <a href="/posts/start_spacy.html">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/tech/python/start_spacy/spacy.png" class="responsive-img" alt="初见spacy">
-                            
-                            <!-- 福袋按钮 -->
-                            <div class="caishendeng">        
-                                <div class="caishenxian fudaixian">
-                                    <img class="caishenpic lala" src="/medias/spring-img/fish.png" />
-                                </div>              
-                            </div>
-                            <span class="card-title">
-                              初见spacy
-                              <!-- 文章卡片hover线条效果 -->
-                              <span class="titlesline">
-                                <style>
-                                  .titlesline {
-                                    width: 0px;
-                                    height: 4px;
-                                    background-color: #fadca6;
-                                    border-radius: 2px;
-                                    position: absolute;
-                                    top: 10px;
-                                    left: 24px;
-                                  }
-                                  body.dark .titlesline {
-                                    filter: brightness(.7);
-                                  }
-                                  article .card .titlesline {
-                                    transition: all 0.36s ease;
-                                  }
-                                  article .card-image:hover .titlesline {
-                                    width: 36px;
-                                  }
-                                </style>
-                              </span>
-                            </span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                nlp工具spacy库的使用
-
-初见spacy由于使用stanfordcorenlp时一直报错，不得已改用spacy
-关于spacy及其安装Spacy 是由 cython 编写。因此它是一个非常快的库。 spaCy 提供简洁的接口用来访问其
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-01-23
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/%E6%8A%80%E6%9C%AF/" class="post-category">
-                                    技术
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/spacy/">
-                            <span class="chip bg-color">spacy</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4">
-                <div class="card">
-                    <!-- 推荐文章置顶模块效果开始 -->
-                    
-                    <div class="placetop">推荐文章</div>
-                    <style>
-                        .placetop {
-                          z-index: 99;
-                          position: absolute;
-                          top: 0;
-                          left: 0;
-                          width: 80px;
-                          height: 30px;
-                          line-height: 30px;
-                          border-bottom-right-radius: 8px;
-                          background-color: #039be5;
-                          text-align: center;
-                          font-size: 15px;
-                          color: #fff;
-                          font-weight: 400!important;
-                          opacity: 0.95;
-                        }
-                        body.dark .placetop {
-                          opacity: 0.75;
-                        }
-                    </style>
-                    
-                    <!-- 推荐文章置顶模块效果结束 -->
-                    <a href="/posts/basketball.html">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/toc-banner/suibi1.jpg" class="responsive-img" alt="这是篮球模板">
-                            
-                            <!-- 福袋按钮 -->
-                            <div class="caishendeng">        
-                                <div class="caishenxian fudaixian">
-                                    <img class="caishenpic lala" src="/medias/spring-img/fish.png" />
-                                </div>              
-                            </div>
-                            <span class="card-title">
-                              这是篮球模板
-                              <!-- 文章卡片hover线条效果 -->
-                              <span class="titlesline">
-                                <style>
-                                  .titlesline {
-                                    width: 0px;
-                                    height: 4px;
-                                    background-color: #fadca6;
-                                    border-radius: 2px;
-                                    position: absolute;
-                                    top: 10px;
-                                    left: 24px;
-                                  }
-                                  body.dark .titlesline {
-                                    filter: brightness(.7);
-                                  }
-                                  article .card .titlesline {
-                                    transition: all 0.36s ease;
-                                  }
-                                  article .card-image:hover .titlesline {
-                                    width: 36px;
-                                  }
-                                </style>
-                              </span>
-                            </span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                前言，篮球篮球篮球。
-
-标题
-项目1
-项目2
-项目3
-
-正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-01-18
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/%E7%AF%AE%E7%90%83/" class="post-category">
-                                    篮球
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/%E7%AF%AE%E7%90%83/">
-                            <span class="chip bg-color">篮球</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4">
-                <div class="card">
-                    <!-- 推荐文章置顶模块效果开始 -->
-                    
-                    <div class="placetop">推荐文章</div>
-                    <style>
-                        .placetop {
-                          z-index: 99;
-                          position: absolute;
-                          top: 0;
-                          left: 0;
-                          width: 80px;
-                          height: 30px;
-                          line-height: 30px;
-                          border-bottom-right-radius: 8px;
-                          background-color: #039be5;
-                          text-align: center;
-                          font-size: 15px;
-                          color: #fff;
-                          font-weight: 400!important;
-                          opacity: 0.95;
-                        }
-                        body.dark .placetop {
-                          opacity: 0.75;
-                        }
-                    </style>
-                    
-                    <!-- 推荐文章置顶模块效果结束 -->
-                    <a href="/posts/articletemplate.html">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/toc-banner/suibi1.jpg" class="responsive-img" alt="这是技术文章模板">
-                            
-                            <!-- 福袋按钮 -->
-                            <div class="caishendeng">        
-                                <div class="caishenxian fudaixian">
-                                    <img class="caishenpic lala" src="/medias/spring-img/fish.png" />
-                                </div>              
-                            </div>
-                            <span class="card-title">
-                              这是技术文章模板
-                              <!-- 文章卡片hover线条效果 -->
-                              <span class="titlesline">
-                                <style>
-                                  .titlesline {
-                                    width: 0px;
-                                    height: 4px;
-                                    background-color: #fadca6;
-                                    border-radius: 2px;
-                                    position: absolute;
-                                    top: 10px;
-                                    left: 24px;
-                                  }
-                                  body.dark .titlesline {
-                                    filter: brightness(.7);
-                                  }
-                                  article .card .titlesline {
-                                    transition: all 0.36s ease;
-                                  }
-                                  article .card-image:hover .titlesline {
-                                    width: 36px;
-                                  }
-                                </style>
-                              </span>
-                            </span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                前言，技术文章前言技术文章前言技术文章前言技术文章前言技术文章前言技术文章前言技术文章前言技术文章前言技术文章前言技术文章前言技术文章前言技术文章前言技术文章前言。
-
-标题
-项目1
-项目2
-项目3
-
-正文正文正文正文正文正文正文正文正文正文
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-12-14
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/%E6%8A%80%E6%9C%AF/" class="post-category">
-                                    技术
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/%E6%8A%80%E6%9C%AF/">
-                            <span class="chip bg-color">技术</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4">
-                <div class="card">
-                    <!-- 推荐文章置顶模块效果开始 -->
-                    
-                    <div class="placetop">推荐文章</div>
-                    <style>
-                        .placetop {
-                          z-index: 99;
-                          position: absolute;
-                          top: 0;
-                          left: 0;
-                          width: 80px;
-                          height: 30px;
-                          line-height: 30px;
-                          border-bottom-right-radius: 8px;
-                          background-color: #039be5;
-                          text-align: center;
-                          font-size: 15px;
-                          color: #fff;
-                          font-weight: 400!important;
-                          opacity: 0.95;
-                        }
-                        body.dark .placetop {
-                          opacity: 0.75;
-                        }
-                    </style>
-                    
-                    <!-- 推荐文章置顶模块效果结束 -->
-                    <a href="/posts/essay-demo.html">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/toc-banner/aticalmode.jpg" class="responsive-img" alt="这是随笔文章模板">
-                            
-                            <!-- 福袋按钮 -->
-                            <div class="caishendeng">        
-                                <div class="caishenxian fudaixian">
-                                    <img class="caishenpic lala" src="/medias/spring-img/fish.png" />
-                                </div>              
-                            </div>
-                            <span class="card-title">
-                              这是随笔文章模板
-                              <!-- 文章卡片hover线条效果 -->
-                              <span class="titlesline">
-                                <style>
-                                  .titlesline {
-                                    width: 0px;
-                                    height: 4px;
-                                    background-color: #fadca6;
-                                    border-radius: 2px;
-                                    position: absolute;
-                                    top: 10px;
-                                    left: 24px;
-                                  }
-                                  body.dark .titlesline {
-                                    filter: brightness(.7);
-                                  }
-                                  article .card .titlesline {
-                                    transition: all 0.36s ease;
-                                  }
-                                  article .card-image:hover .titlesline {
-                                    width: 36px;
-                                  }
-                                </style>
-                              </span>
-                            </span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                这是博主的随笔板块，后续会更新文章，目前弄好了模板格式~
-    节选自《你若安好便是晴天》- 前言
-  
-  几场梅雨，几卷荷风，江南已是烟水迷离。小院里湿润的青苔在雨中纯净生长。这个季节，许多人都在打听关于莲荷的消息，以及茉莉在黄昏浮动
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-01-04
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/%E9%9A%8F%E7%AC%94/" class="post-category">
-                                    随笔
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/%E9%9A%8F%E7%AC%94/">
-                            <span class="chip bg-color">随笔</span>
-                        </a>
-                        
-                    </div>
-                    
                 </div>
             </div>
             
         </div>
     </article>
-    <!-- 所有文章卡片结束 -->
 </main>
 
 

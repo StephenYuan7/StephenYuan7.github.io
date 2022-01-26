@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title></title>
+      <link href="/posts/python-note.html"/>
+      <url>/posts/python-note.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><div class="note info">python的小笔记(不定时更新)/div&gt;</div></p><h1 id="python"><a href="#python" class="headerlink" title="python"></a>python</h1><h2 id="enumerate"><a href="#enumerate" class="headerlink" title="enumerate"></a>enumerate</h2><p>迭代器，顺便把序号给标上了</p><pre class=" language-lang-python"><code class="language-lang-python">for index, i in enumerate(range(100000)):    if index % 2 == 0:        s *= i</code></pre><h2 id="tqdm"><a href="#tqdm" class="headerlink" title="tqdm"></a>tqdm</h2><p>进度条</p><pre class=" language-lang-python"><code class="language-lang-python">for index, i in tqdm(enumerate(range(100000))):    time.sleep(0.1)    if index % 2 == 0:        s *= i</code></pre><p><img src="/python-note.htmlnekoblog\source\_posts\python-note\tqdm.png" alt></p><h2 id="time"><a href="#time" class="headerlink" title="time"></a>time</h2><p>时间模块</p><h3 id="time-process-time"><a href="#time-process-time" class="headerlink" title="time.process_time()"></a>time.process_time()</h3><p>用来记录程序运行的cpu时间</p><pre class=" language-lang-python"><code class="language-lang-python">t_start = time.process_time()t_end = time.process_time()print('enumerate: &#123;&#125;'.format(t_end-t_start))</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> python </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>git配置多个ssh key</title>
       <link href="/posts/git_ssh.html"/>
       <url>/posts/git_ssh.html</url>

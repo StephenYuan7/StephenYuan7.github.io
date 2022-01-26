@@ -6,7 +6,7 @@
   <link href="www.yuanyehao.com/atom.xml" rel="self"/>
   
   <link href="www.yuanyehao.com/"/>
-  <updated>2022-01-26T02:29:51.373Z</updated>
+  <updated>2022-01-26T03:03:24.706Z</updated>
   <id>www.yuanyehao.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="www.yuanyehao.com/posts/python-note.html"/>
+    <id>www.yuanyehao.com/posts/python-note.html</id>
+    <published>2022-01-26T02:50:20.991Z</published>
+    <updated>2022-01-26T03:03:24.706Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="www.yuanyehao.com/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="python" scheme="www.yuanyehao.com/tags/python/"/>
+    
+  </entry>
   
   <entry>
     <title>git配置多个ssh key</title>
