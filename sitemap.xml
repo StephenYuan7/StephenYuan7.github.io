@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>www.yuanyehao.com/posts/git_ssh.html</loc>
+    
+    <lastmod>2022-01-26</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>www.yuanyehao.com/posts/start_spacy.html</loc>
     
     <lastmod>2022-01-23</lastmod>
@@ -156,14 +163,14 @@
   </url>
   
   <url>
-    <loc>www.yuanyehao.com/posts/articletemplate.html</loc>
+    <loc>www.yuanyehao.com/posts/essay-demo.html</loc>
     
     <lastmod>2022-01-15</lastmod>
     
   </url>
   
   <url>
-    <loc>www.yuanyehao.com/posts/essay-demo.html</loc>
+    <loc>www.yuanyehao.com/posts/articletemplate.html</loc>
     
     <lastmod>2022-01-15</lastmod>
     
@@ -179,7 +186,7 @@
 
   <url>
     <loc>www.yuanyehao.com</loc>
-    <lastmod>2022-01-23</lastmod>
+    <lastmod>2022-01-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -187,28 +194,35 @@
   
   <url>
     <loc>www.yuanyehao.com/tags/%E6%8A%80%E6%9C%AF/</loc>
-    <lastmod>2022-01-23</lastmod>
+    <lastmod>2022-01-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>www.yuanyehao.com/tags/%E9%9A%8F%E7%AC%94/</loc>
-    <lastmod>2022-01-23</lastmod>
+    <lastmod>2022-01-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>www.yuanyehao.com/tags/%E7%AF%AE%E7%90%83/</loc>
-    <lastmod>2022-01-23</lastmod>
+    <lastmod>2022-01-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>www.yuanyehao.com/tags/spacy/</loc>
-    <lastmod>2022-01-23</lastmod>
+    <lastmod>2022-01-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>www.yuanyehao.com/tags/git/</loc>
+    <lastmod>2022-01-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -217,21 +231,21 @@
   
   <url>
     <loc>www.yuanyehao.com/categories/%E6%8A%80%E6%9C%AF/</loc>
-    <lastmod>2022-01-23</lastmod>
+    <lastmod>2022-01-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>www.yuanyehao.com/categories/%E9%9A%8F%E7%AC%94/</loc>
-    <lastmod>2022-01-23</lastmod>
+    <lastmod>2022-01-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>www.yuanyehao.com/categories/%E7%AF%AE%E7%90%83/</loc>
-    <lastmod>2022-01-23</lastmod>
+    <lastmod>2022-01-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

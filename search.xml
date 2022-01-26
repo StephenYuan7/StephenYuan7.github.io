@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>git配置多个ssh key</title>
+      <link href="/posts/git_ssh.html"/>
+      <url>/posts/git_ssh.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div class="note info">github/gitlab(内网) 管理多个ssh key解决报错问题</div><p>在github下成功配置后在gitlab(内网服务器)下一直不成功，这里写一下解决策略</p><h1 id="git配置多个ssh-key"><a href="#git配置多个ssh-key" class="headerlink" title="git配置多个ssh key"></a>git配置多个ssh key</h1><h2 id="普通安装"><a href="#普通安装" class="headerlink" title="普通安装"></a>普通安装</h2><h3 id="添加第一个ssh-key"><a href="#添加第一个ssh-key" class="headerlink" title="添加第一个ssh key"></a>添加第一个ssh key</h3><p>首先绑定用户就不提了，绑定完之后生成ssh key</p><pre class=" language-lang-bash"><code class="language-lang-bash">$ ssh-keygen -t rsa -C "youremail@yourcompany.com"</code></pre><p>生成后会在 ~/.ssh/ 目录下生成 id_rsa 和 id_rsa.pub 两个文件，id_rsa是私钥不能给别人看， id_rsa.pub是公钥</p><h3 id="绑定github-gitlab"><a href="#绑定github-gitlab" class="headerlink" title="绑定github(gitlab)"></a>绑定github(gitlab)</h3><p>打开id_rsa.pub，将其内容复制</p><p>然后打开github(gitlab)网站，进入setting(设置)，找到ssh相关设置，添加新的ssh key,将其内容添加进去</p><h3 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h3><p>将github.com改成相应的网址即使</p><pre class=" language-lang-bash"><code class="language-lang-bash">$ ssh -T git@github.com</code></pre><h2 id="配置文件"><a href="#配置文件" class="headerlink" title="配置文件"></a>配置文件</h2><p>普通的教程到上面就结束了，我绑定github也非常的正常，但绑定实验室内网的gitlab却一直失败，最后使用配置文件成功</p><p>首先打开~/.ssh/ 目录，里面会有一个config文件(没有就创建一个，没有任何后缀)，将其打开，进行编辑</p><pre><code># gitlabHost gitlab.com    HostName gitlab.com    PreferredAuthentications publickey    IdentityFile ~/.ssh/id_rsa    Port 666# githubHost github.com    HostName github.com    PreferredAuthentications publickey    IdentityFile ~/.ssh/id_rsa_github    Port 443</code></pre><p>首先通过这个文件可以配置不同的账户，将Host和HostName改成相应的内网域名即可，IdentityFile 用来在不同网站使用不同的ssh key，最后是端口，弄了半天才知道内网的服务器端口不是经常用的443或者22，而是别的端口，大家在使用的时候一定要问清楚</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> git </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>初见spacy</title>
       <link href="/posts/start_spacy.html"/>
       <url>/posts/start_spacy.html</url>
