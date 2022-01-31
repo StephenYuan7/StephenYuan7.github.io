@@ -5,10 +5,35 @@
     
     <entry>
       <title></title>
+      <link href="/posts/lc-note.html"/>
+      <url>/posts/lc-note.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><div class="note info">leetcode刷题笔记/div&gt;</div></p><h1 id="leetcode"><a href="#leetcode" class="headerlink" title="leetcode"></a>leetcode</h1><p>注意python中队列deque使用</p><p>数字处理时学会想到用二进制</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> python </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
       <link href="/posts/python-note.html"/>
       <url>/posts/python-note.html</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><div class="note info">python的小笔记(不定时更新)/div&gt;</div></p><h1 id="python"><a href="#python" class="headerlink" title="python"></a>python</h1><h2 id="enumerate"><a href="#enumerate" class="headerlink" title="enumerate"></a>enumerate</h2><p>迭代器，顺便把序号给标上了</p><pre class=" language-lang-python"><code class="language-lang-python">for index, i in enumerate(range(100000)):    if index % 2 == 0:        s *= i</code></pre><h2 id="tqdm"><a href="#tqdm" class="headerlink" title="tqdm"></a>tqdm</h2><p>进度条</p><pre class=" language-lang-python"><code class="language-lang-python">for index, i in tqdm(enumerate(range(100000))):    time.sleep(0.1)    if index % 2 == 0:        s *= i</code></pre><p><img src="/python-note.htmlnekoblog\source\_posts\python-note\tqdm.png" alt></p><h2 id="time"><a href="#time" class="headerlink" title="time"></a>time</h2><p>时间模块</p><h3 id="time-process-time"><a href="#time-process-time" class="headerlink" title="time.process_time()"></a>time.process_time()</h3><p>用来记录程序运行的cpu时间</p><pre class=" language-lang-python"><code class="language-lang-python">t_start = time.process_time()t_end = time.process_time()print('enumerate: &#123;&#125;'.format(t_end-t_start))</code></pre><h2 id="str相关"><a href="#str相关" class="headerlink" title="str相关"></a>str相关</h2><h3 id="判断数字大小写"><a href="#判断数字大小写" class="headerlink" title="判断数字大小写"></a>判断数字大小写</h3><pre><code>字符串.isalnum()  所有字符都是数字或者字母，为真返回 Ture，否则返回 False。字符串.isalpha()   所有字符都是字母，为真返回 Ture，否则返回 False。字符串.isdigit()     所有字符都是数字，为真返回 Ture，否则返回 False。字符串.islower()    所有字符都是小写，为真返回 Ture，否则返回 False。字符串.isupper()   所有字符都是大写，为真返回 Ture，否则返回 False。字符串.istitle()      所有单词都是首字母大写，为真返回 Ture，否则返回 False。字符串.isspace()   所有字符都是空白字符，为真返回 Ture，否则返回 False。</code></pre><h2 id="list相关"><a href="#list相关" class="headerlink" title="list相关"></a>list相关</h2><h3 id="sort函数"><a href="#sort函数" class="headerlink" title="sort函数"></a>sort函数</h3><pre class=" language-lang-python"><code class="language-lang-python">list.sort( key=None, reverse=False)</code></pre><p>key一般用lambda函数</p><pre class=" language-lang-python"><code class="language-lang-python">properties.sort(key=lambda i: i[0], reverse=True)</code></pre><p>此外若排序的列表是多重元素，那么会按元素顺序依次比较</p><pre class=" language-lang-python"><code class="language-lang-python">test = [[2,2],[3,3]]</code></pre>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><div class="note info">python的小笔记(不定时更新)/div&gt;</div></p><h1 id="python"><a href="#python" class="headerlink" title="python"></a>python</h1><h2 id="enumerate"><a href="#enumerate" class="headerlink" title="enumerate"></a>enumerate</h2><p>迭代器，顺便把序号给标上了</p><pre class=" language-lang-python"><code class="language-lang-python">for index, i in enumerate(range(100000)):    if index % 2 == 0:        s *= i</code></pre><h2 id="tqdm"><a href="#tqdm" class="headerlink" title="tqdm"></a>tqdm</h2><p>进度条</p><pre class=" language-lang-python"><code class="language-lang-python">for index, i in tqdm(enumerate(range(100000))):    time.sleep(0.1)    if index % 2 == 0:        s *= i</code></pre><p><img src="/python-note.htmlnekoblog\source\_posts\python-note\tqdm.png" alt></p><h2 id="time"><a href="#time" class="headerlink" title="time"></a>time</h2><p>时间模块</p><h3 id="time-process-time"><a href="#time-process-time" class="headerlink" title="time.process_time()"></a>time.process_time()</h3><p>用来记录程序运行的cpu时间</p><pre class=" language-lang-python"><code class="language-lang-python">t_start = time.process_time()t_end = time.process_time()print('enumerate: &#123;&#125;'.format(t_end-t_start))</code></pre><h2 id="str相关"><a href="#str相关" class="headerlink" title="str相关"></a>str相关</h2><h3 id="判断数字大小写"><a href="#判断数字大小写" class="headerlink" title="判断数字大小写"></a>判断数字大小写</h3><pre><code>字符串.isalnum()  所有字符都是数字或者字母，为真返回 Ture，否则返回 False。字符串.isalpha()   所有字符都是字母，为真返回 Ture，否则返回 False。字符串.isdigit()     所有字符都是数字，为真返回 Ture，否则返回 False。字符串.islower()    所有字符都是小写，为真返回 Ture，否则返回 False。字符串.isupper()   所有字符都是大写，为真返回 Ture，否则返回 False。字符串.istitle()      所有单词都是首字母大写，为真返回 Ture，否则返回 False。字符串.isspace()   所有字符都是空白字符，为真返回 Ture，否则返回 False。</code></pre><h2 id="list相关"><a href="#list相关" class="headerlink" title="list相关"></a>list相关</h2><h3 id="sort函数"><a href="#sort函数" class="headerlink" title="sort函数"></a>sort函数</h3><pre class=" language-lang-python"><code class="language-lang-python">list.sort( key=None, reverse=False)</code></pre><p>key一般用lambda函数</p><pre class=" language-lang-python"><code class="language-lang-python">properties.sort(key=lambda i: i[0], reverse=True)</code></pre><p>此外若排序的列表是多重元素，那么会按元素顺序依次比较</p><pre class=" language-lang-python"><code class="language-lang-python">test = [[2,2],[3,3]]</code></pre><h3 id="deque队列"><a href="#deque队列" class="headerlink" title="deque队列"></a>deque队列</h3><pre class=" language-lang-python"><code class="language-lang-python">from collections import dequequeue = deque(["Eric", "John", "Michael"])queue.append("Terry")           # Terry arrivesqueue.append("Graham")          # Graham arrivesqueue.popleft()                 # The first to arrive now leavesqueue.popleft()                 # The second to arrive now leavesqueue                           # Remaining queue in order of arrival</code></pre><h2 id="num相关"><a href="#num相关" class="headerlink" title="num相关"></a>num相关</h2><h3 id="四则运算"><a href="#四则运算" class="headerlink" title="四则运算"></a>四则运算</h3><pre class=" language-lang-python"><code class="language-lang-python">// 整数整除% 取余</code></pre>]]></content>
       
       
       <categories>

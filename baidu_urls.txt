@@ -1,3 +1,4 @@
+www.yuanyehao.com/posts/lc-note.html
 www.yuanyehao.com/posts/python-note.html
 www.yuanyehao.com/posts/git_ssh.html
 www.yuanyehao.com/posts/start_spacy.html
