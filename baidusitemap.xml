@@ -2,7 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>www.yuanyehao.com/posts/python-note.html</loc>
-    <lastmod>2022-01-31</lastmod>
+    <lastmod>2022-03-02</lastmod>
+  </url>
+  <url>
+    <loc>www.yuanyehao.com/posts/start_scrapy.html</loc>
+    <lastmod>2022-02-25</lastmod>
+  </url>
+  <url>
+    <loc>www.yuanyehao.com/posts/nba-trade-review.html</loc>
+    <lastmod>2022-02-11</lastmod>
   </url>
   <url>
     <loc>www.yuanyehao.com/posts/lc-note.html</loc>

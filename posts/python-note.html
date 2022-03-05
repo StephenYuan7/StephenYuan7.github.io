@@ -1219,14 +1219,14 @@ h3:hover {
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    375
+                    654
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    2 分
                 </div>
                 
 
@@ -1269,7 +1269,47 @@ print('enumerate: &#123;&#125;'.format(t_end-t_start))
 字符串.istitle()      所有单词都是首字母大写，为真返回 Ture，否则返回 False。
 
 字符串.isspace()   所有字符都是空白字符，为真返回 Ture，否则返回 False。
-</code></pre><h2 id="list相关"><a href="#list相关" class="headerlink" title="list相关"></a>list相关</h2><h3 id="sort函数"><a href="#sort函数" class="headerlink" title="sort函数"></a>sort函数</h3><pre class=" language-lang-python"><code class="language-lang-python">list.sort( key=None, reverse=False)
+</code></pre><h3 id="三个单引号可以使用有换行符的字符串"><a href="#三个单引号可以使用有换行符的字符串" class="headerlink" title="三个单引号可以使用有换行符的字符串"></a>三个单引号可以使用有换行符的字符串</h3><pre class=" language-lang-python"><code class="language-lang-python">s = '''澎湃在线 109358
+潇湘晨报 88460
+光明网 51669
+新浪财经 36274
+手机中国网 33604
+北青网 24698
+环球网 23501
+中国经济网 17933
+东方财富网 12972
+中国新闻网 12900
+央广网 11406
+中国青年网 11167
+环京津网 10834
+新华网客户端 10583
+上观新闻 10556
+天眼新闻 10553
+红网 10480
+闪电新闻 10474
+新华社图片 10348
+新华社 10198
+湖南24小时 9823
+中国日报网 9409
+海报新闻 9028
+新京报 8297
+每日经济新闻 7694
+中国江苏网 7230
+浙江新闻 7137
+教育信息速报 7028
+界面新闻 6878
+证券之星 6867
+新民晚报 6678
+国际在线 6626
+新华社新媒体 6527
+河北新闻网 6112
+北京日报客户端 6056
+人民网 5836
+新华社客户端 5738'''
+
+print(s)
+</code></pre>
+<h2 id="list相关"><a href="#list相关" class="headerlink" title="list相关"></a>list相关</h2><h3 id="sort函数"><a href="#sort函数" class="headerlink" title="sort函数"></a>sort函数</h3><pre class=" language-lang-python"><code class="language-lang-python">list.sort( key=None, reverse=False)
 </code></pre>
 <p>key一般用lambda函数</p>
 <pre class=" language-lang-python"><code class="language-lang-python">properties.sort(key=lambda i: i[0], reverse=True)
@@ -1287,6 +1327,14 @@ queue                           # Remaining queue in order of arrival
 </code></pre>
 <h2 id="num相关"><a href="#num相关" class="headerlink" title="num相关"></a>num相关</h2><h3 id="四则运算"><a href="#四则运算" class="headerlink" title="四则运算"></a>四则运算</h3><pre class=" language-lang-python"><code class="language-lang-python">// 整数整除
 % 取余
+</code></pre>
+<h2 id="文件相关"><a href="#文件相关" class="headerlink" title="文件相关"></a>文件相关</h2><h3 id="文件打开"><a href="#文件打开" class="headerlink" title="文件打开"></a>文件打开</h3><pre class=" language-lang-python"><code class="language-lang-python">self.fp = open('player_match_data.json', 'w', encoding='utf-8')
+</code></pre>
+<h3 id="读取当前位置"><a href="#读取当前位置" class="headerlink" title="读取当前位置"></a>读取当前位置</h3><pre class=" language-lang-python"><code class="language-lang-python">self.fp.tell()
+</code></pre>
+<h3 id="改变文件指针位置"><a href="#改变文件指针位置" class="headerlink" title="改变文件指针位置"></a>改变文件指针位置</h3><pre class=" language-lang-python"><code class="language-lang-python">self.fp.seek(self.fp.tell()-1)  # 回退一格
+</code></pre>
+<h3 id="删除文件该位置之后的内容"><a href="#删除文件该位置之后的内容" class="headerlink" title="删除文件该位置之后的内容"></a>删除文件该位置之后的内容</h3><pre class=" language-lang-python"><code class="language-lang-python">self.fp.truncate()
 </code></pre>
 
             </div>
@@ -2144,7 +2192,7 @@ git配置多个ssh key普通安装添加第一个ssh key首先绑定用户就不
             
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;Total number of words: &nbsp;<span
-                class="white-color">2.2k</span>&nbsp;
+                class="white-color">4.1k</span>&nbsp;
             
             
             

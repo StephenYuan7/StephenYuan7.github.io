@@ -1,7 +1,9 @@
+www.yuanyehao.com/posts/start_scrapy.html
 www.yuanyehao.com/posts/lc-note.html
 www.yuanyehao.com/posts/python-note.html
 www.yuanyehao.com/posts/git_ssh.html
 www.yuanyehao.com/posts/start_spacy.html
 www.yuanyehao.com/posts/basketball.html
+www.yuanyehao.com/posts/nba-trade-review.html
 www.yuanyehao.com/posts/articletemplate.html
 www.yuanyehao.com/posts/essay-demo.html
