@@ -4,6 +4,56 @@
   
     
     <entry>
+      <title>选择与努力，徘徊与抉择</title>
+      <link href="/posts/day_2022_08_10.html"/>
+      <url>/posts/day_2022_08_10.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h4 id="选择与努力，徘徊与抉择"><a href="#选择与努力，徘徊与抉择" class="headerlink" title="选择与努力，徘徊与抉择"></a>选择与努力，徘徊与抉择</h4><p>拖了好久，感觉今天终于开始好好学习了，虽然也没有学很久，但好歹进入状态了，希望从今天开始能养成写随笔的习惯吧，初中三年陶老师的这个教学方式我真的很感谢，无数次曾想捡起来却总是虎头蛇尾，希望能坚持下去，把脑子里出现的想法与生活的总结给做一个记录。</p><p>首先是选择与努力，我自认为是一个很会做选择的人，我在评估前进的不同方向时总能以比较理性的想法进行抉择，不论是大学选专业还是考研，还是其他的一些事情。总有人在描述考研时说道“选择比努力更重要”，其实这句话没错，但有个问题是相比于更努力，选择事物这个能力似乎是更难改变更难训练的，这是由一个人的性格，家庭，人生经历息息相关的，有的事并不是选错了，而是在当时那个场景下，大多数人还会做相同的选择，所以相比于选择的更好，更努力似乎才是改变事物情况更好的路径。</p><p>接着是徘徊与抉择，之前一度说过我很会做选择，但随着带来的问题是我在做决定时喜欢考察的事情过于多了，会进入“徘徊”的困扰，做对选择带来的收益与做选择时付出的代价似乎会抵消很多，比如在购物时在点外卖时我喜欢货比三家，喜欢找优惠，喜欢等价格低，我曾经一度对这种行为产生怀疑，因为这些事情带来的收益感觉很小，我随便带个家教，去个实习，甚至当个志愿者都能拿到比这个性价比更多的收益，我甚至一度克制自己让自己不要做这些事情。但最近我似乎又有点想通了，人似乎也不需要时时刻刻都在提升自己，都要做有意义的事情，人的一生中大部分事情其实都是由所谓无意义的事情所拼凑的，我为什么喜欢找优惠等价格，因为一是我发现自己买的便宜会有满足感，二是如果我发现我买贵了事后会有挫败感，简而言之就是买便宜了我很开心，为了开心就行，如果所有事都必须有意义那游戏也别打了，与人交流也不用了，许许多多的事都似乎是不必要的，只要一门心思的赚钱的就行了，可组成人生最多的还是这些所谓的无意义的事情啊~</p><p>今天感觉主要是抒发一下与自己和解的过程，或许以后出现新的的情况会出现改变，人生嘛，走一步看一步~</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 随笔 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 随笔 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>这是技术文章模板</title>
+      <link href="/posts/bupt-cs.html"/>
+      <url>/posts/bupt-cs.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div class="note info">重走北邮计算机学习之路</div><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>本文参考了<a href="https://csdiy.wiki/">CS自学指南 (csdiy.wiki)</a>，也是由于看到了北大学长的这篇自学指南而想针对北邮而写。</p><p>这是我重新学习北邮计算机学习之路，也可以当做一本自学指南，也是给我大学四年的学习重新做一次归纳与总结，也为我研究生学业的开始做一下铺垫。</p><p>原文的学习架构过于庞大，我觉得像我这样不够自律，能力又不是特别强的同学可能难以坚持，我相信大多北邮的同学在学习完课内的内容时早已身心俱疲，但北邮的计算机学习体系和教学方式只能说差强人意，如果想在获取绩点的同时还想学到相关的知识还是非常困难的，所以我尽量跟着北邮的教学体系走，使得在课程教学外找到相应平替的方法，使得在课程绩点和学习知识层面齐头并进。</p><p>整体的规划都是个人观点，如有不妥请多包涵。</p><h2 id="计院课程大纲"><a href="#计院课程大纲" class="headerlink" title="计院课程大纲"></a>计院课程大纲</h2><p>这里是18级计科的专业课程体系，下面将以此为基础进行规划。</p><h2 id="大一"><a href="#大一" class="headerlink" title="大一"></a>大一</h2><h2 id="微积分"><a href="#微积分" class="headerlink" title="微积分"></a>微积分</h2><p>高数/数分，每个理工科都要学习的课程，如果只是想应付考试，我觉得把学校发的习题册做完即可，分数会有一个相对还不错的结果，如果是期末还剩一点时间，直接看考研的高数课程也未尝不可。如果想学深入一些，大力推荐曾在北邮教学的闫浩老师的课程，<a href="https://mp.weixin.qq.com/s/Ove84D9oKQc_iIY5uewbNQ">学长公众号整理的闫浩老师的笔记</a>、<a href="[高等数学习题课 - 北京邮电大学 - 学堂在线 (xuetangx.com">学堂在线的闫浩老师部分课程</a>](<a href="https://www.xuetangx.com/course/BUPT07011000040/10321929?channel=i.area.recent_search)),在大一上时有幸当了一个学期闫老师的学生，对刚进入大学的我来说受益匪浅，虽然闫老师已经跳槽离开北邮了，但还是推荐这个课程，如果这个系统我能坚持下去的话应该会向闫老师申请下课程视频啥的。">https://www.xuetangx.com/course/BUPT07011000040/10321929?channel=i.area.recent_search)),在大一上时有幸当了一个学期闫老师的学生，对刚进入大学的我来说受益匪浅，虽然闫老师已经跳槽离开北邮了，但还是推荐这个课程，如果这个系统我能坚持下去的话应该会向闫老师申请下课程视频啥的。</a></p><p>如果学有余力，且英文不错的同学，可以试试MIT 的 <a href="https://csdiy.wiki/数学基础/MITmaths/">Calculus Course</a>，这也是我接下来要重新学习的课程。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 技术 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>初见scrapy</title>
       <link href="/posts/start_scrapy.html"/>
       <url>/posts/start_scrapy.html</url>

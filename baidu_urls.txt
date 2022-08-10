@@ -1,3 +1,5 @@
+www.yuanyehao.com/posts/day_2022_08_10.html
+www.yuanyehao.com/posts/bupt-cs.html
 www.yuanyehao.com/posts/start_scrapy.html
 www.yuanyehao.com/posts/lc-note.html
 www.yuanyehao.com/posts/python-note.html
